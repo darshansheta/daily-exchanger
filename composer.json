@@ -1,0 +1,20 @@
+{
+    "name": "darshan/daily-exchanger",
+    "description": "Package to get currency rate from European Central Bank",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.7"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Darshan\\DailyExchanger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Darshan",
+            "email": "darshan.denz@gmail.com"
+        }
+    ]
+}
